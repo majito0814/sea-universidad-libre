@@ -11,6 +11,7 @@ NOTA SOBRE MySQL:
     El sistema intenta conectarse a MySQL. Si no está disponible,
     los datos se manejan en memoria (sin persistencia).
 """
+"n"
 
 from servicios.gestor_estudiantes import GestorEstudiantes
 from servicios.gestor_cursos import GestorCursos
@@ -37,6 +38,7 @@ try:
         repo_mat = MatriculaRepositorio()
 except Exception:
     MYSQL_DISPONIBLE = False
+
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -430,7 +432,7 @@ def reporte_promedio():
         print(f"  (Ningún estudiante tiene promedio >= {minimo})")
     input("\n  Presiona ENTER para continuar...")
 
-
+"Reporte acerca de los cursos y los docentes registrados"
 def reporte_cursos_docente():
     """Lista los cursos que tienen docente asignado."""
     encabezado("Cursos con Docente Asignado")
