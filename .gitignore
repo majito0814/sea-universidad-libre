@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.pyc
+
+# Entorno virtual
+venv/
+env/
+.env/
+.venv/
+
+# ⚠ NUNCA subir credenciales de base de datos reales
+# Si cambias la contraseña en conexion.py, verifica que no esté aquí
+# Se recomienda usar variables de entorno en producción
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Pylint
+.pylint.d/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos ZIP (no subir el entregable al repo)
+*.zip
