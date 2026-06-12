@@ -9,11 +9,9 @@ usando Programación Orientada a Objetos en Python, con persistencia en MySQL.
 
 ## 👥 Integrantes del Grupo
 
-| Nombre | ID | Rol |
-|--------|----|-----|
-| (Tu nombre aquí) | (Tu ID) | Módulos base / Herencia |
-| (Nombre compañero 2) | (ID) | Persistencia MySQL |
-| (Nombre compañero 3) | (ID) | Testing / Documentación |
+Nombre: Maria Jose Agudelo
+Materia: Programación Orientada a Objetos
+Universidad: Universidad Libre
 
 ---
 
