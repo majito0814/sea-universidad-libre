@@ -23,7 +23,7 @@ gestor_est = GestorEstudiantes()
 gestor_cur = GestorCursos()
 docentes = []  # lista en memoria para docentes
 
-# ── Intentar conectar con MySQL (opcional, no falla si no está disponible) ──
+# ── Intentar conectar con MySQL (opcional, no falla si no está disponible) ── 
 try:
     from database.conexion import probar_conexion
     from servicios.estudiante_repositorio import EstudianteRepositorio
